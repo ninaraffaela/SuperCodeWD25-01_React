@@ -1,5 +1,4 @@
 import "./Header.css";
-import "../../../public/img/brightness.webp"
 
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
                 <a href="#">Projects</a>
                 <a href="#">Skills</a>
                 <a href="">Contact</a>
-                <img src="../../../public/img/brightness.webp" alt="DayNightToggle" />
+                <img src="/public/img/brightness.webp" alt="DayNightToggle" />
             </nav>
         </header>
      );

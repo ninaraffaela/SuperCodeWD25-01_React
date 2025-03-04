@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../public/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsFat";
+  src: url(../public/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+
 img {
   max-width: 100%;
 }
@@ -19,6 +30,11 @@ img {
 
 html {
   background-color: var(--color_darkblue);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "PoppinsFat", Arial, Helvetica, sans-serif;
 }
 
 a {

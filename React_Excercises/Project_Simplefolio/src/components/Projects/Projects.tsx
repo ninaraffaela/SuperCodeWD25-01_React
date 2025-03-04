@@ -1,16 +1,21 @@
 import Project from "../Project/Project";
-import "../Projects/Projects.css"
+import "../Projects/Projects.css";
+
 
 const Projects = () => {
-    return ( 
-        <div className="projects">
-            {/* <h1>Projects</h1> */}
+  return (
+    <div >
+        
+      <h1 className="project-h1">Projects</h1>
+      <div className="projects">
         <Project />
         <Project />
         <Project />
+      </div>
+    
+      
+    </div>
+  );
+};
 
-        </div>
-     );
-}
- 
 export default Projects;

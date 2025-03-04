@@ -1,3 +1,5 @@
+
+
 .projects {
     display: flex;
     justify-content: space-evenly;
@@ -5,5 +7,13 @@
     max-width: 90vw;
     margin: 0 auto;
     gap: 4vw;
+    margin-bottom: 10vh;
 
+}
+
+.project-h1 {
+    text-align: center;
+    color: var(--colorlilacgrey);
+    margin-bottom: 2vh;
+    text-transform: uppercase;
 }

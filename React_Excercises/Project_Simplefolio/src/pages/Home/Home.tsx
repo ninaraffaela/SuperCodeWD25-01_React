@@ -1,7 +1,7 @@
 import Header from "../../components/Header/Header";
 import Hero from "../../components/Hero/Hero";
-import Project from "../../components/Project/Project";
 import Projects from "../../components/Projects/Projects";
+import Skills from "../../components/Skills/Skills";
 
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
           <Header />
           <Hero />
           <Projects />
+          <Skills/>
         
         </div>
      );

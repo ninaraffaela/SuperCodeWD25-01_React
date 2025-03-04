@@ -9,19 +9,15 @@
 }
 
 .project h2 {
-    color: var(--colorlilacgrey);
+    color: var(--colorlilacrose);
+    font-family: "PoppinsFat", Arial, Helvetica, sans-serif;
 }
 
 .project h3 {
-    color: var(--colorlilacgrey);
+    color: var(--colorlilacrose);
+    font-family: "PoppinsFat", Arial, Helvetica, sans-serif;
 }
 
 .project p {
     color: var(--colorlilacpurple);
 }
-
---color_darkblue: #23283e;
---color2: #2a2f4c;
---colorlilacgrey: #bdbddd;
---colorlilacrose: #cdcdff;
---colorlilacpurple: #90a0d9;
