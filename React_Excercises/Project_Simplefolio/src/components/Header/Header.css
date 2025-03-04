@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    margin: 3vh 2vh 60px 2vh;
+}
+
+.header h1 {
+    color: var(--colorlilacpurple);
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.header nav a {
+    margin: 2vh;
+}
+
+.header img {
+    max-width: 5vh;
+    
+}

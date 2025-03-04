@@ -1,0 +1,27 @@
+.project {
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2vh;
+    padding: 3vh;
+    box-shadow: 1px 1px 5px 0px #181b2a;
+}
+
+.project h2 {
+    color: var(--colorlilacgrey);
+}
+
+.project h3 {
+    color: var(--colorlilacgrey);
+}
+
+.project p {
+    color: var(--colorlilacpurple);
+}
+
+--color_darkblue: #23283e;
+--color2: #2a2f4c;
+--colorlilacgrey: #bdbddd;
+--colorlilacrose: #cdcdff;
+--colorlilacpurple: #90a0d9;

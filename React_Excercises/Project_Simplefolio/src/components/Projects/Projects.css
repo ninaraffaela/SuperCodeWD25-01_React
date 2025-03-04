@@ -1,0 +1,9 @@
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
+    gap: 4vw;
+
+}

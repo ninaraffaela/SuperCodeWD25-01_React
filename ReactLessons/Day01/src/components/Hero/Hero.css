@@ -1,0 +1,12 @@
+.hero h1 {
+    background-color:bisque;
+    color: teal;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* # Here is a part missing. check later  */

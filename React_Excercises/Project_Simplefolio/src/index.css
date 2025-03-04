@@ -1,0 +1,27 @@
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color_darkblue: #23283e;
+  --color2: #2a2f4c;
+  --colorlilacgrey: #bdbddd;
+  --colorlilacrose: #cdcdff;
+  --colorlilacpurple: #90a0d9;
+
+}
+
+html {
+  background-color: var(--color_darkblue);
+}
+
+a {
+  text-decoration: none;
+  color: var(--colorlilacgrey);
+}
