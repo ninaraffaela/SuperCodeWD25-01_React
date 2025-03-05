@@ -1,0 +1,23 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 2vw;
+}
+
+img {
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+}
