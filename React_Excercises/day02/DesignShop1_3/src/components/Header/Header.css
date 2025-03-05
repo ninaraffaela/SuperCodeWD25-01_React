@@ -1,0 +1,12 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh;
+    margin-bottom: 5vw;
+    
+}
+
+.header-wrapper div a{
+    margin: 0.5rem;
+}

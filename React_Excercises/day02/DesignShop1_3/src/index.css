@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Karla";
+    src: url(./assets//fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: #323A45;
+    --color2: #848484;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Karla", Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color2);
+}
+

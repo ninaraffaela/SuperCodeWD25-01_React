@@ -1,0 +1,7 @@
+.shop-display {
+    display: flex;
+
+}
+/* # where and how best to style the image?? */
+
+/* # how to use grid in react. i could have multiple div stylings, but not sure how to create the classes from the map() */
