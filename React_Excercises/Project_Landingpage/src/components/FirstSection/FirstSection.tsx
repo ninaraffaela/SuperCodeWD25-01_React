@@ -14,8 +14,8 @@ const FirstSection = () => {
       
       <div className="portfolio-wrapper">
       <BrandIdentity />
-      <Marketing />
       <Illustration />
+      <Marketing />
       <WebDesign />
 
       </div>

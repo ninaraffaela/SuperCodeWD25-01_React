@@ -1,7 +1,19 @@
 .portfolio {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     padding: 2vw;
     text-align: center;
+}
+
+.portfolio h3 {
+    color: #29823f;
+    font-size: 1.5rem; 
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3vw;
 }
 
 .portfolio-wrapper {
@@ -9,20 +21,33 @@
     flex-wrap: wrap;
     padding: 2vw;
 
-    background-color: teal;
+    /* background-color: teal; */
     gap: 10px;
+    
     text-align: left;
 }
 
+
 .portfolio-wrapper div {
-    width: 45%;
-    margin: 0 auto;
-    background-color: coral;
-    /* display: flex; */
-    height: 15vh;
+    width: 49%;
+    /* margin: 0 auto; */
+    /* background-color: coral; */
+    display: flex;
+    height: 10vw;
+    line-height: 150%;
 
 }
 
 .portfolio-wrapper div img {
-    height: 20px;
+    height: 3vw;
+    margin: 0.5vw;
+}
+
+.portfolio-wrapper div article h4 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.portfolio-wrapper div article p {
+    width: 80%;
 }
