@@ -4,6 +4,7 @@ type ProductItemProps = {
     productTitle: string;
     productImage: string;
     productPrice: number;
+    cssClass: string;
     productDescription? : string;
     // - Type of children always "React.ReactNode"
     children?: React.ReactNode;
@@ -15,7 +16,7 @@ const ProductItem = (props: ProductItemProps) => {
   
   
     return (
-    <div>
+    <div className={props.cssClass}>
       <img src={props.productImage} alt="cocooil" />
       <h2>{props.productTitle}</h2>
       <p>{props.productPrice}</p>

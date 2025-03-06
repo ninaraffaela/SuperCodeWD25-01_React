@@ -1,6 +1,6 @@
 import BuyBtn from "../BuyBtn/BuyBtn";
 import ProductItem from "../ProductItem/ProductItem";
-
+import "./ProductList.css";
 
 type Product = {
   id: number;
@@ -111,39 +111,50 @@ const shopItems: Product[] = [
 
 const ProductList = () => {
   return (
-    <div>
-      <h2>ich bin die Produktliste</h2>
-      {/* <ProductItem 
-      productImage={shopItems[0].image}
-      productTitle={shopItems[0].title}
-      productPrice={shopItems[0].price}/> */}
+    <section>
+      
 
-      {shopItems.map((singleShopItem) => (
-        <ProductItem
+      {shopItems.map((singleShopItem, index) => {
+        const patternIndex = index % 6;
+
+        let styling = ""
+
+        if (patternIndex === 4 || patternIndex === 5) {
+            styling = "big-grid"
+        }
+        
+        return (<ProductItem
           key={singleShopItem.id}
           productImage={singleShopItem.image}
           productTitle={singleShopItem.title}
           productPrice={singleShopItem.price}
+          cssClass={styling}
         >
-        <BuyBtn text="Buy Now" />
-
-        </ProductItem>
-      ))}
+          <BuyBtn text="Buy Now" />
+        </ProductItem>)
+        
+})}
 
       <ProductItem
         productTitle={shopItems[0].title}
         productImage={shopItems[0].image}
         productPrice={shopItems[0].price}
         productDescription={shopItems[0].description}
+        cssClass="big-grid"
       >
         {/* //- Put in Children. Change the selfclosing Tag from <ProductItem  into ></ProductItem>  */}
         <button>Buy Nowww</button>
         <h3>Hallo Jule</h3>
 
-        <BuyBtn text="Buy NOOOOW"/>
+        <BuyBtn text="Buy NOOOOW" />
       </ProductItem>
-    </div>
+    </section>
   );
 };
 
 export default ProductList;
+
+{/* <ProductItem 
+      productImage={shopItems[0].image}
+      productTitle={shopItems[0].title}
+      productPrice={shopItems[0].price}/> */}
