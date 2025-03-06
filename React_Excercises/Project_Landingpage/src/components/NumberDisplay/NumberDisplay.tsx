@@ -41,6 +41,7 @@ const NumberDisplay = () => {
             numberCount={singleNumber.count}
             numberTitle={singleNumber.title}
             />
+        
         ))}
       
           

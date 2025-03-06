@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #29823f;
     padding: 2vw;
+    margin-bottom: 20px;
 }
 
 
@@ -22,5 +23,14 @@
     text-align: center;
     font-size: 2vw;
     font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.separator-horizontal {
+    height: 1px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 20px;
 }
 
