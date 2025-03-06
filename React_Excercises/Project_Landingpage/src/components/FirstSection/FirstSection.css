@@ -1,0 +1,21 @@
+.portfolio {
+    background-color: antiquewhite;
+    padding: 2vw;
+    text-align: center;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+
+    background-color: teal;
+    gap: 10px;
+}
+
+.portfolio-wrapper div {
+    width: 45%;
+    margin: 0 auto;
+    background-color: coral;
+
+}
