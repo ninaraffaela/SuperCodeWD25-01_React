@@ -1,0 +1,26 @@
+.hero {
+    text-align: center;
+    background-color: #29823f;
+    padding: 2vw;
+}
+
+
+.hero h1 {
+    color: white;
+    font-size: 6vw;
+    margin-bottom: 20px;
+    
+}
+
+.hero-text {
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+}
+
+.hero-greeting {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+}
+

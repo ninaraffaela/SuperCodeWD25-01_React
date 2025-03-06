@@ -1,4 +1,5 @@
-import NumberDisplayItems from "../NumberDisplayItems/NumberDisplayItems"
+import NumberDisplayItems from "../NumberDisplayItems/NumberDisplayItems";
+import "./NumberDisplay.css";
 
 
 type NumberHighlight = {

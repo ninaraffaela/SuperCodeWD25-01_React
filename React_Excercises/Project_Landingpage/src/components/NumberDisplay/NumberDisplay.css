@@ -1,0 +1,11 @@
+.number-display {
+    background-color: #29823f;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+
+.number-display div {
+    width: 25%;
+}
