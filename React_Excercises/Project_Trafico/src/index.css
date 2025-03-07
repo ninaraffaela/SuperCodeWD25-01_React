@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "InterExtraBold";
+  src: url(./assets/fonts/Inter/static/Inter_18pt-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "DMSerifDisplayRegular";
+  src: url(./assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorblack: #091C2E;
+  --colorblackGlitz: #262626;
+  --colortext: #402B2B;
+  --colorgrey: #BBC3C9;
+  --colorgrey2: #F8F9FA;
+  --colorgradient1: #F4A984;
+  --colorgradient2: #EE4D47;
+  --colorblue: #0091E9;
+  --colorred: #FF000A;
+  --colorred1: #EE4D47;
+  --colorpink: #EC008C;
+  --colorsticker: #FCDDD4;
+  
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "DMSerifDisplayRegular", Arial, Helvetica, sans-serif;
+  font-size: 10rem;
+  color: white;
+}
+
+h2 {
+  color: var(--colorred1);
+  text-transform: uppercase;
+  letter-spacing: 10%;
+
+  /* line-height: 40; */
+  /* # line heigth in figma as "40". what´s the unit? */
+
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+p {
+  color: var(--colortext);
+  font-weight: lighter;
+  font-size: 1.8rem;
+  /* line-height: 30; */
+    /* # line heigth in figma as "30". what´s the unit? */
+}
+
+.redbox-sticker {
+  background-color: var(--colorsticker);
+  color: var(--colortext);
+  font-size: 2.4rem;
+
+  /* line-height: 33; */
+  /* # line heigth in figma as "33". what´s the unit? */
+
+  border-radius: 15px;
+  border-left: 5px solid var(--colorgradient2);
+}
+
+.redbox-sticker-footer {
+  font-size: 2rem;
+  color: white;
+
+ /* line-height: 30; */
+    /* # line heigth in figma as "30". what´s the unit? */
+
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: var(--colortext);
+}
