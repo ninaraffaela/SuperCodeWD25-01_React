@@ -11,6 +11,8 @@ const AboutUs = () => {
           the company when carrying out freight transport. In fact, it is a
           prerequisite for doing business traffic at all.{" "}
         </p>
+        <p className="redbox-sticker">How do you do when you need to obtain 
+        a commercial traffic permit for freight transport to your business?</p>
       </article>
       <img src={DeliveryImg} alt="delivery-guy" />
     </div>

@@ -82,10 +82,13 @@ p {
   background-color: var(--colorsticker);
   color: var(--colortext);
   font-size: 2.4rem;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: medium;
 
   /* line-height: 33; */
   /* # line heigth in figma as "33". what´s the unit? */
 
+  padding: 2vw;
   border-radius: 15px;
   border-left: 5px solid var(--colorgradient2);
 }
