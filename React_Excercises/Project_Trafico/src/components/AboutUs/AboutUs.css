@@ -1,0 +1,14 @@
+.about-us {
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    margin: 0 10vw;
+}
+
+.about-us h2 {
+    margin-bottom: 30px;
+}
+
+.about-us img {
+    max-width: 50%;
+}
