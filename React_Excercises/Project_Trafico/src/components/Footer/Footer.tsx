@@ -1,12 +1,28 @@
-import FooterNav from "../FooterNav/FooterNav"
-
+import FooterNav from "../FooterNav/FooterNav";
+import GetStartedBtn from "../GetStartedBtn/GetStartedBtn";
+import SocialBtns from "../SocialBtns/SocialBtns";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <FooterNav />
-    </div>
-  )
-}
+      <div className="footer-background-area">
+        <article>
+          <p className="redbox-sticker-footer">
+            We provide traffic management consultants so you get started
+            quickly, contact us for a quote today!
+          </p>
+          <GetStartedBtn />
+        </article>
+        <FooterNav />
+      </div>
 
-export default Footer
+      <article className="copy-social">
+        <p>Copyright ©</p>
+        <SocialBtns />
+      </article>
+    </div>
+  );
+};
+
+export default Footer;

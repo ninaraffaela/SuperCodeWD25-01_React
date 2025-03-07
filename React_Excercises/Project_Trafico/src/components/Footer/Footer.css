@@ -1,4 +1,25 @@
 .footer {
-    /* background-image: {HeaderBackgroundImg}; */
-    
+   
+    /* # how to style the background */
+    background-color:antiquewhite;
+}
+
+.footer-background-area {
+    background: url(../../assets/img/footer_background.png) no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+
+.footer .copy-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.redbox-sticker-footer {
+    margin: 0 10vw;
 }

@@ -1,5 +1,6 @@
 .header {
-    /* background-image: {HeaderBackgroundImg}; */
-    margin-bottom: 50vh;
+    background: url(../../assets/img/HeaderWithoutTextV2.png) no-repeat;
+    background-size: contain;
+    padding-bottom: 50vh;
 }
 

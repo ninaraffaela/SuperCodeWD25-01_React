@@ -1,19 +1,19 @@
 .nav-btn {
-    background-color: teal;
-    padding: 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px 20px 50px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .nav-btn img {
-    height: 5vw;
+    height: 2vw;
 }
 
 .nav-btn div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 5vw;
+    gap: 3vw;
 }

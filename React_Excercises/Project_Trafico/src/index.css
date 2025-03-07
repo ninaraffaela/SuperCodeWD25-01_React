@@ -38,7 +38,6 @@
 html {
   font-size: 62.5%;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
-  background-color: #F4A984;
 }
 
 img {
@@ -47,7 +46,7 @@ img {
 
 h1 {
   font-family: "DMSerifDisplayRegular", Arial, Helvetica, sans-serif;
-  font-size: 10rem;
+  font-size: 7vw;
   color: white;
 }
 
@@ -94,12 +93,18 @@ p {
 }
 
 .redbox-sticker-footer {
-  font-size: 2rem;
-  color: white;
+  color: var(--colortext);
+  font-size: 2.4rem;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  font-weight: medium;
 
- /* line-height: 30; */
-    /* # line heigth in figma as "30". what´s the unit? */
+  /* line-height: 33; */
+  /* # line heigth in figma as "33". what´s the unit? */
 
+  padding: 2vw;
+  border-radius: 15px;
+  border-left: 5px solid var(--colorgradient2);
+  width: 40%;
 }
 
 a {
