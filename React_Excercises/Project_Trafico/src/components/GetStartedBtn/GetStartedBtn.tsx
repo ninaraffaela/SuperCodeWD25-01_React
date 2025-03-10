@@ -4,7 +4,8 @@ import ArrowImg from "../../assets/img/whiteArrow.png";
 const GetStartedBtn = () => {
   return (
     <div>
-      <button>Get Started {ArrowImg}</button>
+      <button className="btn-with-arrow">Get Started <img src={ArrowImg} alt="pfeil" /></button>
+    
     </div>
   )
 }

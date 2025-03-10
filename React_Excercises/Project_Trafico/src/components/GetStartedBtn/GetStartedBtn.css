@@ -5,3 +5,9 @@ button {
     border-radius: 5px;
     color: white;
 }
+
+.btn-with-arrow {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}

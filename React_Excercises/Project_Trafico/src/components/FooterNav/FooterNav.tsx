@@ -6,8 +6,8 @@ const FooterNav = () => {
     <div className="footer-nav">
       <img src={Logo} alt="Logo" />
       <div>
-        <a href="#">About</a>
-        <a href="#">How to</a>
+        <a href="#about-us">About</a>
+        <a href="#how-to">How to</a>
         <a href="#">FAQ</a>
       </div>
     </div>

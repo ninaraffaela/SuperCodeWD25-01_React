@@ -7,8 +7,8 @@ const Nav = () => {
     <div className="nav-btn">
       <img src={Logo} alt="Logo" />
       <div>
-        <a href="#">About</a>
-        <a href="#">How to</a>
+        <a href="#about-us">About</a>
+        <a href="#how-to">How to</a>
         <a href="#">FAQ</a>
         <ContactBtn />
       </div>
@@ -17,3 +17,5 @@ const Nav = () => {
 };
 
 export default Nav;
+
+

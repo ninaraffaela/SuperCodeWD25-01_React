@@ -3,7 +3,7 @@ import DeliveryImg from "../../assets/img/Illustration.png";
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div id="about-us" className="about-us">
       <article>
         <h2>About us</h2>
         <p>

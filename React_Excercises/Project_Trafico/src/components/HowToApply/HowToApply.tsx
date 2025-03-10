@@ -3,7 +3,7 @@ import "./HowToApply.css";
 
 const HowToApply = () => {
   return (
-    <div className="how-to">
+    <div id="how-to" className="how-to">
       <img src={CallCenterImg} alt="call-center-girl" />
       <article>
         <h2>How to Apply</h2>
