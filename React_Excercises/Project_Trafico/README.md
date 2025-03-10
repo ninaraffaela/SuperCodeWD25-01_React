@@ -5,6 +5,8 @@ SuperCode Project on 4th day with react.
 Figma Overview.
 ![Figma Overview](<Trafico (Copy).png>)
 
+-> we should recreate page 1. (at the point we are right now, we don´t know how to implement multiple pages in react.)
+
 XMind Overview after 1hr
 ![Xmind Overview after 1hr](Xmind_ProjectTrafico_after1hr.png)
 
@@ -14,7 +16,8 @@ Xmind Overview after 2hrs
 Xmind Overview after 4hrs
 ![Xmind Overview after 4hrs](Xmind_4hrs.png)
 
-
+Xmind Overview after another few hours
+![alt text](Xmind_1pager_done.png)
 
 
 
