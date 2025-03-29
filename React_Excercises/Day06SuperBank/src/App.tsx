@@ -1,12 +1,17 @@
-import { useState } from 'react'
+
 import './App.css'
+import CashForm from './Components/CashForm'
+import CreditCardDisplay from './Components/CreditCard';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-    </>
+    <main>
+      <CreditCardDisplay />
+      <h1>👾SUPERBANK👾</h1>
+      <CashForm />
+    </main>
   )
 }
 
