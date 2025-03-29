@@ -35,8 +35,10 @@ That´s how we get from start to finish.
 [link to the documentation](https://react-kawaii.vercel.app/) 
 
 
-ProjectStatus: initialised, kickoff. let´s fetz
+## ProjectStatus: initialised, kickoff. let´s fetz
 
+so far:
+![SuperBank_NinaEdition](SuperBank_NinaEdition.png)
 
 
 ## (not mine- Initial Standard Filling of the Readme:)
