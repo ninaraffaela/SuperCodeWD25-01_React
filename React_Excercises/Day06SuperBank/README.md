@@ -7,13 +7,20 @@ I´m new to React and codeWriting in general, so with todays Project, we practic
 * UserChoice Buttons to cash-in or cash-out
 * Output for the new Cash-Balance
 * Implement npm "React-kawaii TS"  (a set of kawaii SVG Illustrations. Planets, CreditCards, Planet Browser. see below - i included a visual overview and the links)
-* Depending on the current cash-balance, the kawaii credit card changes it´s appearance.
+* Depending on the current cash-balance, the kawaii credit card changes it´s appearance. (mood/color)
 * 👾 get familiar with Reacts { useState }
 
 ### what the project should/could look like, according to the given Exercise.
-![alt text](React_SuperBank-1.png)
+![requested Project](React_SuperBank-1.png)
 
 ___________________________
+
+### what the Nini-Project looks like at cashbalance 0 and cashbalance >= 1.000.000
+![Project Nini-Style👾](CreditCards.png)
+___________________________
+
+### how i did it
+with my former experience as ProductManager for a HR-Software and ProjectManager, i blew up the project, bigger then its scope "allows" so far, but... 
 
 ## First Steps 👾🍀
 Usually, when i get an exercise/inspiration, my brain shoots into a gazillion branches and directions.
@@ -21,12 +28,15 @@ Usually, when i get an exercise/inspiration, my brain shoots into a gazillion br
 So I jump into my MindMap Tool (Xmind) and visualise said Branches. 🧚🏼‍♀️
 
 This XMind is the Navigation /toDoList / ProjectMap.
-That´s how we get from start to finish.
+That´s how we get from start to finish.  kickoff. let´s fetz
 
 ### 🍀 Xmind Overview 👾KICKOFF 👾
 ![Xmind Overview KickOff](Xmind_Overview_Kickoff.png)
 
-### React - Kawaii SVG Collection
+### 🍀 Xmind Overview 👾IT WORKS <3 👾
+![Xmind Overview ItWorks](Xmind_Overview_itWorks.png)
+
+### The React - Kawaii SVG Collection we used
 
 ![react kawaii](React_Kawaii.png)
 
@@ -35,10 +45,12 @@ That´s how we get from start to finish.
 [link to the documentation](https://react-kawaii.vercel.app/) 
 
 
-## ProjectStatus: initialised, kickoff. let´s fetz
+## ProjectStatus: it works. card changes mood and color.
+next additional steps:
+-save cashBalance in local storage
+-decide on a deployment service (own repo for the project, then deploy)
 
-so far:
-![SuperBank_NinaEdition](SuperBank_NinaEdition.png)
+
 
 
 ## (not mine- Initial Standard Filling of the Readme:)

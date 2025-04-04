@@ -1,16 +1,17 @@
 
 import './App.css'
 import CashForm from './Components/CashForm'
-import CreditCardDisplay from './Components/CreditCard';
+import CreditCardDisplay from './Components/CreditCardDisplay';
+import { useState } from 'react';
 
 function App() {
-  
+  const [cashBalance, setCashBalance] = useState(0)  
 
   return (
     <main>
-      <CreditCardDisplay />
+      <CreditCardDisplay cashBalance={cashBalance} />
       <h1>👾SUPERBANK👾</h1>
-      <CashForm />
+      <CashForm cashBalance={cashBalance} setCashBalance={setCashBalance}/>
     </main>
   )
 }
