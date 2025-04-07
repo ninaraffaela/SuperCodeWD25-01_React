@@ -1,12 +1,15 @@
 import { Link, useParams } from "react-router-dom";
-import { useState } from "react";
 import quizzes from "../data/quizData";
+import { useState } from "react";
+import OptionButton from "../components/quiz/OptionButton";
 
 export default function QuizPage() {
   const params = useParams(); // {topic: "html"}
   const { slug } = params;
   const quiz = quizzes.find((quiz) => quiz.slug === slug);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 
   // Falls kein Quiz gefunden wurde: Early return
   if (!quiz) {
@@ -18,17 +21,37 @@ export default function QuizPage() {
     );
   }
 
- 
   console.log(quiz.questions);
 
+  // ! Obacht: Wenn currentQuestionIndex größer ist als currentQuestion.length, kommt undefined raus
   const currentQuestion = quiz.questions[currentQuestionIndex];
 
-  const handleAnswerClick = (selectedAnswer: string)=>{
-    console.log(selectedAnswer)
-    setCurrentQuestionIndex((oldIndex) =>(oldIndex + 1))
-    console.log(currentQuestionIndex)
-  }
+  const handleAnswerClick = (selectedAnswer: string) => {
+    const isCorrect = currentQuestion.correctOption === selectedAnswer;
+    if (isCorrect) {
+      setCorrectAnswers((previousValue) => previousValue + 1);
+    }
+    // wir speichern die ausgewaehlte antwort zwischen, um sie als richtig oder falsch stylen zu koennen
+    setSelectedAnswer(selectedAnswer);
 
+    setTimeout(() => {
+      // hier macht es sinn den state direkt zu setzen, statt mit einer callbackfunktion zu arbeiten
+      // da wir maximal auf die naechste Frage wechseln wollen
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setSelectedAnswer(null);
+    }, 2000);
+  };
+
+  // * Falls Quizende erreicht ist, Ergebnisse rendern
+  if (currentQuestionIndex === 7) {
+    return (
+      "Results: " +
+      correctAnswers +
+      "/" +
+      quiz.questions.length +
+      " richtige Antworten <3"
+    );
+  }
 
   return (
     <main className="page-container">
@@ -37,18 +60,16 @@ export default function QuizPage() {
         <p>{currentQuestion.title}</p>
       </div>
       <div className="button-stack">
-        {currentQuestion.options.map((option, index) => (
-          <button
-            className="big-button"
+        {currentQuestion.options.map((option) => (
+          <OptionButton
+            handleAnswerClick={handleAnswerClick}
+            option={option}
             key={option}
-            onClick={()=>(handleAnswerClick(option))}
-          >
-            <span className="big-button__logo">{["A","B","C","D","E","F"][index]}</span>
-            <span className="big-button__text">{option}</span>
-          </button>
+            isSelected={selectedAnswer === option}
+            isCorrect={currentQuestion.correctOption === option}
+          />
         ))}
       </div>
-
     </main>
   );
 }
